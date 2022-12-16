@@ -11,10 +11,9 @@ function Footer() {
       </a>
   
       <ul class="nav col-md-4 justify-content-end">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Services</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"></a></li>
+        <li class="nav-item"><a href="/" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="/services" class="nav-link px-2 text-muted">Services</a></li>
+        <li class="nav-item"><a href="/contact" class="nav-link px-2 text-muted">Contact</a></li>
       </ul>
     </footer>
   </div>

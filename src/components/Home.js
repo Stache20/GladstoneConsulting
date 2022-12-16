@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Display from './Display'
 
 function Home(){
 
@@ -28,6 +28,7 @@ Aside from the clinical side of being a BCBA, leadership and management are key.
          </div>
 
         </div>
+        
     )
 
 

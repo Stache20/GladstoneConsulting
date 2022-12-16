@@ -1,10 +1,11 @@
 import React from 'react'
 
 function Consulting(){
+    return(
 <div id='home' class='text-break  justify-content-center  home boxShadow d-none d-md-flex '>
         
         <div class='homeSpace'>
-        <img className='avatar ' src="https://media-exp1.licdn.com/dms/image/C4E03AQG76tgWEdQVQA/profile-displayphoto-shrink_400_400/0/1626200401063?e=1670457600&v=beta&t=Rmz_JSGztXMU4dV0fO5TacF9bd8N6CRP0Czyq8otQfE" class="rounded-circle" alt="Cinque Terre">
+        <img  className='col-md-6 how-img' src={require('../images/pexels-cottonbro-studio-4098228.jpg')} class='col-md-6 how-img serviceImg' alt="Consulting Image">
             </img>
 
         </div>
@@ -15,8 +16,8 @@ function Consulting(){
 Nam vel tellus mollis, iaculis mauris in, sagittis massa. Fusce vel venenatis quam. Nunc sit amet purus non urna laoreet egestas sed ac lorem. Morbi condimentum sapien consequat, hendrerit arcu eu, ornare justo. In a felis eros. Praesent vitae dapibus neque. Suspendisse tortor enim, porttitor nec hendrerit id, maximus a sapien. Donec cursus risus porta feugiat dictum. Proin in pharetra ante. Vestibulum quis ultrices mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Morbi pellentesque a erat vel tristique. In hac habitasse platea dictumst. Nam auctor porttitor urna, nec rutrum urna mattis sit amet.</p>
 </div>
          </div>
-
-       
+         
+    )
 
 } 
 
