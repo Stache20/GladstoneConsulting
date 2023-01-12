@@ -1,34 +1,42 @@
 import React from 'react'
-import Display from './Display'
+import ScrollArrow from './ScrollArrow'
+import Avatar from './Avatar'
 
 function Home(){
 
     return(
+       
 
-        <div id='home' class='text-break  justify-content-center  home boxShadow d-none d-md-flex '>
+        <div className='box' >
+<div className='text-center'>
+            <Avatar/>
+         <p> Marni is a Board Certified Behaviour Analyst who has been in the field of ABA and Positive Behaviour Support for many years. </p>
+
+         <p>Her passion for helping people has awarded her opportunities to work with folks of all ages and levels of need both in Ontario and British Columbia.</p>
+
+         <p>Marni's current areas of focus are within the forensic system, youth in conflict with the law, and sexual behaviours.</p>
+
+         <p>Marni is constantly keeping up to date with evidence based practices and continuing her education to ensure her client's are getting the best possible outcomes. </p>
+
+
+<br></br>
+
+<hr
+   style={{
+   background: "grey",
+   height: "1.5px",
+   width: '40%',
+   border: "none",
+   }}
+/>
+<div>
         
-        <div class='homeSpace'>
-        <img className='avatar ' src="https://media-exp1.licdn.com/dms/image/C4E03AQG76tgWEdQVQA/profile-displayphoto-shrink_400_400/0/1626200401063?e=1670457600&v=beta&t=Rmz_JSGztXMU4dV0fO5TacF9bd8N6CRP0Czyq8otQfE" class="rounded-circle" alt="Cinque Terre">
-            </img>
-
-        </div>
-         <div class='text-center'>
-         <h1>Marni Gladstone, M.A.</h1>
-         <h2>Behaviour Consultant</h2>
-        <br></br>
-        <div >
-         <p>Hi there! My Name is Marni! I'm a amazing Person inside and out. About
-A BCBA that believes in and provides socially significant, person centered and evidence based approaches for her clients & teams resulting in long lasting results. Currently serving those within the Developmental Disability, Autism, and Forensic Psychiatric populations across the lifespan. 
-Passionate about helping others and providing clients with quality services and trainees/supervisees with quality supervision. 
-
-Always looking to remove barriers to support and simplify access to resources so those who need services have access to it. 
-
-Aside from the clinical side of being a BCBA, leadership and management are key. Ensuring efficient and effective clinical work and consultation while maintaining team morale and a positive environment is my specialty.</p>
-</div>
-         </div>
-
-        </div>
+        <ScrollArrow scrollTarget='Service'/>
         
+    </div>
+        </div>
+    </div>
+  
     )
 
 

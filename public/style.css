@@ -1,83 +1,61 @@
+html, body {
+  color: black;
+  font-family: Poppins, Helvetica, Sans-Serif;
+  background-color:	#fffafaba;
+  margin: 0px;
+  height: 100%;
+}
+
+
 .navColour {
     background-color : #FFFAFA	;
    
   }
 
-  html * {
-    color: black;
-    font-family: Helvetica, Sans-Serif;
-
-  }
-
-  body {
-    background-color:	#eee;
-   
-  }
   .nav-link:hover {
     color: black;
     }
 
-.flex {
-    display: flex;
-}
-
-.home { 
-    padding-top: 8%;
-    padding-bottom: 10%;
-    padding-left: 3%;
-    padding-right: 2%;
-    margin-top: 4.5%;
+.box { 
+  height: 100%;
+  width: auto;
+  text-align: center;
+  word-wrap: break-word;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
-    background-color: #fffafaba	;
-  
-
-}
-
-.services {
-    padding-top: 4%;
-    padding-left: 5%;
-    padding-right: 5%;
-
-    margin-top: 3%;
-    margin-bottom: 3%;
-    background-color: #FFFAFA;
+    background-color: #fffafaba;
 }
 
 .serviceImg {
     border-radius: 50%;
+    max-width: 100%;
     width: auto;
-    height: 200px;
-    margin-left: 20%;
-    margin-bottom: 5%;
-    margin-top: -2%;
+    height: auto;
+    max-height: 200px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
-.boxShadow {
-    box-shadow: 0px 4px 7px rgb(190 190 190 / 30%)
-}
-
-.avatar {
-    border-radius: 50%;
-  border: 1px solid rgba(185, 175, 175, 0.306);
-  margin-right: 10%;
-  margin-left: 5%
-
-}
-
-.homeSpace {
-    margin-right: 4%;
-    margin-left: 4%;
-    
+.row {
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .footerStyle {
     text-align: center;
     display: flex;
   justify-content: center;
+
+  box-shadow: 0px 4px 7px -2px rgb(190 190 190 / 30%);
   
 }
+
 
 .footerList {
     padding-left: 2%;
@@ -90,5 +68,47 @@
     transition: 0.2;
 }
 
+.avatar{ 
+  border-radius: 50%;
+  margin-bottom: 5%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.serviceSpace {
+padding-top: 4%;
+}
 
 
+.tag {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 2s;
+}
+
+.tag.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+
+.contactIcons{
+  margin: 3%;
+  color: black;
+}
+
+:hover.contactIcons {
+  color: grey;
+}
+
+
+@media 
+  only screen and (max-width: 767px)  {
+    .serviceImg{
+       display:none;
+     }
+     .hideMobile{
+      display: none;
+     }
+    
+}
