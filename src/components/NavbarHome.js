@@ -1,5 +1,5 @@
 import React from 'react'
-import $ from 'jquery'
+
 
 
 function Navbar() {
@@ -33,36 +33,41 @@ function Navbar() {
     }
   });
 
+
+
     return (
 
         <nav id='Navbar' class="navbar navShadow fixed-top navbar-expand-lg navbar-light navColour navColour boxShadow">
-        <div>
-        <a class="navbar-brand " href="#"><i class="fa-solid fa-handshake-angle"></i>Gladstone Consulting</a>
+        <div class='container-fluid'>
+        <a class="navbar-brand " href="/"><i class="fa-solid fa-handshake-angle"></i>Gladstone Consulting</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          
+       
+        <span class="navbar-toggler-icon"></span>
         </button>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarNav">
+
+        <div class="collapse navbar-collapse" id="navbarNav" aria-expanded='true'>
           <ul class="navbar-nav ">
+
             <li class="nav-item ">
               <a class="nav-link" href="/" onClick={smoothScrollHome} >Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#services" onClick={smoothScrollServices }
+              <a class="nav-link" href="/services" onClick={smoothScrollServices }
 >Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" onClick={smoothScrollContact} >Contact</a>
+              <a class="nav-link" href="/contact" onClick={smoothScrollContact} >Contact</a>
             </li>
             
           </ul>
         </div>
-        <div class="collapse navbar-collapse " id="navbarNav">
+        <div class="collapse navbar-collapse ">
         <ul class="navbar-nav ml-auto">
         <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/marni-gladstone-m-a-spec-ed-aba-bcba-9a60a3178/"><i class="fa-brands fa-linkedin"></i> <span class="sr-only">(current)</span></a>
         </ul>
         </div>
+        </div>
+
       </nav>
     )
 

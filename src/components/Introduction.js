@@ -25,7 +25,7 @@ function Introduction(){
 
         <div>
         
-            <ScrollArrow scrollTarget='Home'/>
+            <ScrollArrow scrollTarget='Main'/>
             
         </div>
       

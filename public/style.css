@@ -6,7 +6,6 @@ html, body {
   height: 100%;
 }
 
-
 .navColour {
     background-color : #FFFAFA	;
    
@@ -56,7 +55,6 @@ html, body {
   
 }
 
-
 .footerList {
     padding-left: 2%;
   padding-right: 2;
@@ -79,7 +77,6 @@ html, body {
 padding-top: 4%;
 }
 
-
 .tag {
   opacity: 0;
   transform: translate(0, 10vh);
@@ -91,7 +88,6 @@ padding-top: 4%;
   transform: translate(0, 0);
 }
 
-
 .contactIcons{
   margin: 3%;
   color: black;
@@ -101,7 +97,6 @@ padding-top: 4%;
   color: grey;
 }
 
-
 @media 
   only screen and (max-width: 767px)  {
     .serviceImg{
@@ -110,5 +105,10 @@ padding-top: 4%;
      .hideMobile{
       display: none;
      }
+
+     .box{
+      padding-top: 25%;
+     }
     
 }
+

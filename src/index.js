@@ -4,7 +4,7 @@ import App from './components/App';
 import {BrowserRouter,
 Routes, Route
 } from 'react-router-dom'
-import Consulting from './components/Consulting'
+
 import reportWebVitals from './reportWebVitals';
 
 
@@ -15,7 +15,7 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path='/' element={<App/>}/>
-      <Route  path='/Consulting' element={<Consulting/>}/>
+
       
     </Routes>
   </BrowserRouter>
