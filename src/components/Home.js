@@ -26,7 +26,7 @@ function Home() {
 
         <p>
           Marni is constantly keeping up to date with evidence based practices
-          and continuing her education to ensure her client's are getting the
+          and continuing her education to ensure her clients are getting the
           best possible outcomes.{" "}
         </p>
 

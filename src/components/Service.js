@@ -13,7 +13,7 @@ function Service() {
         <ServicesContent
           header="Transition Planning"
           text="Marni has extensive experience creating and supporting folks with transition plans. She will meet with the team and build a feasible strengths based transition plan for the individual, team and family. She has experience writing transition plans for many different transitions such as but not limited to: 
-Forensic Psychiatric Hospitals to the community, Secondary to Post-Secondary school, Supported living to independent living, Home living to Supported living.
+Forensic Psychiatric Hospitals to the community, Secondary to Post-Secondary school, supported living to independent living, home living to supported living.
 
 This service is available in both Vancouver and Toronto. 
  "
@@ -87,7 +87,7 @@ Marni has the ability to take on clients across Canada for this. However, priori
           header="One-Time Consultation"
           text="Have a quick question? Need help with a specific routine or behaviour? Need a fresh set of eyes to review a report? Marni offers some one time consultation calls/appointments.
 
-Marni has the ability to take on clients across Canada for this. However, priority will be given to those living in Vancouver, Toronto, or rural areas. Though sliding scale and financial assistance is available for all services Marni provides, for this service, priority will also be given to those who typically struggle to afford services like these. .
+Marni has the ability to take on clients across Canada for this. However, priority will be given to those living in Vancouver, Toronto, or rural areas. Though sliding scale and financial assistance is available for all services Marni provides, for this service, priority will also be given to those who typically struggle to afford services like these.
 
  "
         />
@@ -103,7 +103,7 @@ Marni has the ability to take on clients across Canada for this. However, priori
             border: "none",
           }}
         />
-        <ScrollArrow />
+        <ScrollArrow scrollTarget='Contact'/>
       </div>
     </div>
   );

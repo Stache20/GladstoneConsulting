@@ -41,7 +41,7 @@ function Footer() {
         <svg class="bi me-2" width="40" height="32"><use href="#bootstrap"></use></svg>
       </a>
   
-      <ul class="nav col-md-4 justify-content-end">
+      <ul class="hideMobile nav col-md-4 justify-content-end">
         <li class="nav-item"><a href="/Home" onClick={smoothScrollHome} class="nav-link px-2 text-muted">Home</a></li>
         <li class="nav-item"><a href="/Service" onClick={smoothScrollServices} class="nav-link px-2 text-muted">Services</a></li>
         <li class="nav-item"><a href="/Contact" onClick={smoothScrollContact} class="nav-link px-2 text-muted">Contact</a></li>

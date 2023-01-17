@@ -104,10 +104,13 @@ padding-top: 4%;
      }
      .hideMobile{
       display: none;
+      text-align: center;
      }
 
      .box{
       padding-top: 25%;
+      padding-bottom: 30%;
+
      }
     
 }

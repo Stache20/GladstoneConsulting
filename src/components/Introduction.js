@@ -10,7 +10,7 @@ function Introduction(){
 <div id='Home' className='box mobileIntroduction'>    
          <div class='text-center'>
          <h1>Marni Gladstone</h1>
-         <h2 className='hideMobile'>M.A. (Spec Ed + ABA), BCBA</h2>
+         <h2 className='hideMobile'>B.A, M.A, BCBA</h2>
          <h2>Behaviour Consultant</h2>
         <br></br>
         
