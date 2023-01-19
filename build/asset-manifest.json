@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/static/js/main.768f48ca.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/pexels-lisa-fotios-1655329.jpg": "/static/media/pexels-lisa-fotios-1655329.e57466d2daa2c223c62b.jpg",
+    "static/media/pexel2.jpg": "/static/media/pexel2.ea4ea79d28497ea1e257.jpg",
+    "static/media/pexels-cottonbro-studio-4098369.jpg": "/static/media/pexels-cottonbro-studio-4098369.51b3f77457bf5d0dcb96.jpg",
+    "static/media/pexels-cottonbro-studio-4098228.jpg": "/static/media/pexels-cottonbro-studio-4098228.051edd44c3067f3b1ce5.jpg",
+    "static/media/pexel1.jpg": "/static/media/pexel1.a2f7be2acead5acabd32.jpg",
+    "static/media/pexel3.jpg": "/static/media/pexel3.4f11e81ee441d8d8195b.jpg",
+    "static/media/pexel6.jpg": "/static/media/pexel6.8e7154e585fc954d236d.jpg",
+    "static/media/pexel5.jpg": "/static/media/pexel5.45c7aa47ce4295688f2f.jpg",
+    "static/media/marni photo.jpeg": "/static/media/marni photo.f02c8f61fbcdd4116835.jpeg",
+    "index.html": "/index.html",
+    "main.768f48ca.js.map": "/static/js/main.768f48ca.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.768f48ca.js"
+  ]
+}
